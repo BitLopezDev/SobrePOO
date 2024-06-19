@@ -1,0 +1,2 @@
+[[Generadores]]
+[[Getters]]
