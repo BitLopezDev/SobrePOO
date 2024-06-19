@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "bbeabe8a8aac0ab8",
+        "id": "81a2433439d42f73",
         "type": "tabs",
         "children": [
           {
-            "id": "a2b0ae52f8d65983",
+            "id": "efbab2bbffa63d86",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Metodos/static vs non-static/static vs non-static.md",
+                "file": "Interfaces/interfaces index.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Metodos/static vs non-static/static vs non-static.md",
+                "file": "Interfaces/interfaces index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Metodos/static vs non-static/static vs non-static.md",
+                "file": "Interfaces/interfaces index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Metodos/static vs non-static/static vs non-static.md"
+                "file": "Interfaces/interfaces index.md"
               }
             }
           }
@@ -146,10 +146,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a2b0ae52f8d65983",
+  "active": "efbab2bbffa63d86",
   "lastOpenFiles": [
+    "JavaScript y TypeScript/Notation/Notation JS Index.md",
+    "Metodos/metodos index.md",
+    "OOP.md",
+    "Interfaces/interfaces index.md",
+    "Interfaces",
+    "Principios/Abstracción.md",
+    "Principios/Herencia.md",
+    "Principios/Polimorfismo.md",
+    "Principios/Encapsulamiento.md",
+    "PHP/Notation/PHP Notarion Index.md",
+    "PHP/Notation/Parent.md",
+    "JavaScript y TypeScript/Notation/Super.md",
     "Metodos/static vs non-static/static vs non-static.md",
-    "Metodos/Untitled.md",
+    "Niveles altos y bajos/Alto nivel.md",
     "Metodos/static vs non-static",
     "JavaScript y TypeScript/Notation/abstract antes de class.md",
     "Metodos",
@@ -162,27 +174,15 @@
     "SOLID/Open Closed Principle.md",
     "SOLID/Liskov Substitution Principle.md",
     "Principios/Principios index.md",
-    "Principios/Polimorfismo.md",
-    "Principios/Herencia.md",
-    "Principios/Encapsulamiento.md",
-    "Principios/Abstracción.md",
     "Niveles altos y bajos/Niveles Index.md",
-    "OOP.md",
     "Principios",
     "Niveles altos y bajos/Bajo nivel.md",
-    "Niveles altos y bajos/Alto nivel.md",
     "Niveles altos y bajos",
     "JavaScript y TypeScript/Notation/Métodos generadores.md",
-    "JavaScript y TypeScript/Notation/Notation JS Index.md",
-    "PHP/Notation/PHP Notarion Index.md",
-    "PHP/PHP Index.md",
-    "PHP/Notation/Generadores.md",
-    "JavaScript y TypeScript/Notation/To function or not to function.md",
     "PHP/Notation",
     "SOLID/Untitled",
     "PHP",
     "JavaScript y TypeScript/Notation",
-    "JavaScript y TypeScript",
-    "SOLID"
+    "JavaScript y TypeScript"
   ]
 }

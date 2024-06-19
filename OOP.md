@@ -1,5 +1,11 @@
-
-[[SOLID Index]]
+[[interfaces index]]
 [[JavaScript Index]]
-[[PHP Index]]
+[[metodos index]]
 [[Niveles Index]]
+[[PHP Index]]
+[[Principios index]]
+[[SOLID Index]]
+
+
+
+

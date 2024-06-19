@@ -1,3 +1,5 @@
 [[GET]]
 [[Métodos generadores]]
 [[To function or not to function]]
+[[Super]]
+[[abstract antes de class]]

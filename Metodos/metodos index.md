@@ -1,0 +1,1 @@
+[[static vs non-static]]
