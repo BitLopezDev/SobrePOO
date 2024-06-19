@@ -1,6 +1,6 @@
 El **Principio de Inversión de Dependencias (DIP)** es uno de los cinco principios de SOLID en la Programación Orientada a Objetos (POO). Este principio establece que:
 
-1. Los módulos de [[Alto nivel]]l no deben depender de los módulos de [[Alto nivel]]. Ambos deben depender de abstracciones.
+1. Los módulos de [[Alto nivel]] no deben depender de los módulos de [[Bajo nivel]]. Ambos deben depender de abstracciones.
 2. Las abstracciones no deben depender de los detalles. Los detalles deben depender de las abstracciones.
 
 En otras palabras, en lugar de que tus clases y módulos dependan de implementaciones concretas, deberían depender de interfaces o clases abstractas. Esto hace que tu código sea más flexible y menos acoplado.

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "81a2433439d42f73",
+        "id": "db43829cbb5bd5d9",
         "type": "tabs",
         "children": [
           {
-            "id": "efbab2bbffa63d86",
+            "id": "e5337afe508035fd",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Interfaces/interfaces index.md",
+                "file": "técnicas/Composición.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Interfaces/interfaces index.md",
+                "file": "técnicas/Composición.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Interfaces/interfaces index.md",
+                "file": "técnicas/Composición.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Interfaces/interfaces index.md"
+                "file": "técnicas/Composición.md"
               }
             }
           }
@@ -146,12 +146,19 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "efbab2bbffa63d86",
+  "active": "e5337afe508035fd",
   "lastOpenFiles": [
+    "técnicas/tecnicas INDEX.md",
+    "técnicas/Composición.md",
+    "SOLID/Open Closed Principle.md",
+    "técnicas",
+    "SOLID/Liskov Substitution Principle.md",
+    "SOLID/Interface Segregation Principle.md",
+    "SOLID/Dependency Inversion Principle.md",
+    "Interfaces/interfaces index.md",
     "JavaScript y TypeScript/Notation/Notation JS Index.md",
     "Metodos/metodos index.md",
     "OOP.md",
-    "Interfaces/interfaces index.md",
     "Interfaces",
     "Principios/Abstracción.md",
     "Principios/Herencia.md",
@@ -168,21 +175,14 @@
     "Untitled.md",
     "JavaScript y TypeScript/JavaScript Index.md",
     "SOLID/SOLID Index.md",
-    "SOLID/Interface Segregation Principle.md",
-    "SOLID/Dependency Inversion Principle.md",
     "SOLID/Single Reponsability Principle.md",
-    "SOLID/Open Closed Principle.md",
-    "SOLID/Liskov Substitution Principle.md",
     "Principios/Principios index.md",
     "Niveles altos y bajos/Niveles Index.md",
     "Principios",
-    "Niveles altos y bajos/Bajo nivel.md",
     "Niveles altos y bajos",
-    "JavaScript y TypeScript/Notation/Métodos generadores.md",
     "PHP/Notation",
     "SOLID/Untitled",
     "PHP",
-    "JavaScript y TypeScript/Notation",
-    "JavaScript y TypeScript"
+    "JavaScript y TypeScript/Notation"
   ]
 }

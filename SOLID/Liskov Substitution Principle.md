@@ -127,3 +127,6 @@ b.metodoB();  // Imprime "Método B"
 
 ```
 En este caso, `B` redefine `metodoA()`. Esto es aceptable según el LSP siempre que `metodoA()` en `B` sea compatible con `metodoA()` en `A`. Es decir, debe aceptar los mismos argumentos y devolver un tipo de valor compatible. Además, no debe tener efectos secundarios inesperados que contradigan la documentación o las expectativas establecidas por `A`.
+
+IMPORTANE
+Si el programa simplemente informa al usuario que el pingüino no vuela (sin lanzar una excepción), no se estaría violando el LSP. Sin embargo, la violación ocurre en la implementación de la clase `Pinguino` al lanzar una excepción en lugar de proporcionar un comportamiento coherente con el supertipo.
