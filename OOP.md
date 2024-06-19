@@ -5,6 +5,7 @@
 [[PHP Index]]
 [[Principios index]]
 [[SOLID Index]]
+[[tecnicas INDEX]]
 
 
 

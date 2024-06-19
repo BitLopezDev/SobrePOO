@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "db43829cbb5bd5d9",
+        "id": "ef93d62efda146fc",
         "type": "tabs",
         "children": [
           {
-            "id": "e5337afe508035fd",
+            "id": "753b48c0730bbcc1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "técnicas/Composición.md",
+                "file": "SOLID/Single Reponsability Principle.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "técnicas/Composición.md",
+                "file": "SOLID/Single Reponsability Principle.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "técnicas/Composición.md",
+                "file": "SOLID/Single Reponsability Principle.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "técnicas/Composición.md"
+                "file": "SOLID/Single Reponsability Principle.md"
               }
             }
           }
@@ -133,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -146,8 +145,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e5337afe508035fd",
+  "active": "753b48c0730bbcc1",
   "lastOpenFiles": [
+    "OOP.md",
     "técnicas/tecnicas INDEX.md",
     "técnicas/Composición.md",
     "SOLID/Open Closed Principle.md",
@@ -158,7 +158,6 @@
     "Interfaces/interfaces index.md",
     "JavaScript y TypeScript/Notation/Notation JS Index.md",
     "Metodos/metodos index.md",
-    "OOP.md",
     "Interfaces",
     "Principios/Abstracción.md",
     "Principios/Herencia.md",
