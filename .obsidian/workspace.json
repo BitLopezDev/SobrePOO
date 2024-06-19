@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "9fba3183c4a707ee",
+        "id": "bbeabe8a8aac0ab8",
         "type": "tabs",
         "children": [
           {
-            "id": "d9c2481bfe3ca65a",
+            "id": "a2b0ae52f8d65983",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Niveles altos y bajos/Niveles Index.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6e9ea96e3a7367ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Principios/Abstracción.md",
+                "file": "Metodos/static vs non-static/static vs non-static.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Principios/Abstracción.md",
+                "file": "Metodos/static vs non-static/static vs non-static.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Principios/Abstracción.md",
+                "file": "Metodos/static vs non-static/static vs non-static.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Principios/Abstracción.md"
+                "file": "Metodos/static vs non-static/static vs non-static.md"
               }
             }
           }
@@ -159,37 +146,43 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6e9ea96e3a7367ca",
+  "active": "a2b0ae52f8d65983",
   "lastOpenFiles": [
+    "Metodos/static vs non-static/static vs non-static.md",
+    "Metodos/Untitled.md",
+    "Metodos/static vs non-static",
+    "JavaScript y TypeScript/Notation/abstract antes de class.md",
+    "Metodos",
+    "Untitled.md",
+    "JavaScript y TypeScript/JavaScript Index.md",
+    "SOLID/SOLID Index.md",
+    "SOLID/Interface Segregation Principle.md",
+    "SOLID/Dependency Inversion Principle.md",
+    "SOLID/Single Reponsability Principle.md",
+    "SOLID/Open Closed Principle.md",
+    "SOLID/Liskov Substitution Principle.md",
     "Principios/Principios index.md",
+    "Principios/Polimorfismo.md",
+    "Principios/Herencia.md",
+    "Principios/Encapsulamiento.md",
     "Principios/Abstracción.md",
+    "Niveles altos y bajos/Niveles Index.md",
     "OOP.md",
     "Principios",
     "Niveles altos y bajos/Bajo nivel.md",
-    "Niveles altos y bajos/Niveles Index.md",
-    "SOLID/Dependency Inversion Principle.md",
     "Niveles altos y bajos/Alto nivel.md",
     "Niveles altos y bajos",
-    "SOLID/Liskov Substitution Principle.md",
-    "SOLID/Interface Segregation Principle.md",
-    "SOLID/Single Reponsability Principle.md",
-    "SOLID/Open Closed Principle.md",
-    "JavaScript/Notation/Métodos generadores.md",
-    "JavaScript/Notation/Notation JS Index.md",
-    "JavaScript/JavaScript Index.md",
+    "JavaScript y TypeScript/Notation/Métodos generadores.md",
+    "JavaScript y TypeScript/Notation/Notation JS Index.md",
     "PHP/Notation/PHP Notarion Index.md",
     "PHP/PHP Index.md",
     "PHP/Notation/Generadores.md",
-    "JavaScript/Notation/To function or not to function.md",
-    "PHP/Notation/Getters.md",
-    "JavaScript/Notation/GET.md",
+    "JavaScript y TypeScript/Notation/To function or not to function.md",
     "PHP/Notation",
     "SOLID/Untitled",
     "PHP",
-    "JavaScript/Notation",
-    "JavaScript",
-    "SOLID/SOLID Index.md",
-    "SOLID",
-    "Welcome.md"
+    "JavaScript y TypeScript/Notation",
+    "JavaScript y TypeScript",
+    "SOLID"
   ]
 }
