@@ -1,3 +1,0 @@
-[[Generadores]]
-[[Getters]]
-[[Parent]]
