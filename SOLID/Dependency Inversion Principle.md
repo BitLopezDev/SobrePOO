@@ -70,3 +70,5 @@ $aplicacion->ejecutar("dato");
 
 ```
 Este ejemplo en PHP es similar al ejemplo de TypeScript. `Aplicacion` es una clase de alto nivel y `BaseDeDatosMySQL` es una clase de bajo nivel. Ambas clases dependen de la interfaz `BaseDeDatos`, lo que hace que el código sea más flexible y menos acoplado.
+
+

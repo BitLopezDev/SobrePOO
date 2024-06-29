@@ -57,3 +57,98 @@ Ccuando veas una clase en un código, puedes identificarla como una clase de alt
 1. La clase representa un concepto o entidad general en tu aplicación.
 2. La clase depende de otras clases para realizar tareas específicas.
 3. La clase no se preocupa por los detalles de implementación de las clases de las que depende.
+
+**PREGUNTA**: 
+Si las clases de alto nivel dependen de las clases de bajo nivel 'para realizar tareas específicas', ¿esto no viola el [[Dependency Inversion Principle]]?
+
+**RESPUESTA**:
+El **Principio de Inversión de Dependencias** (también conocido como Dependency Inversion Principle o DIP) establece que los módulos de alto nivel no deberían depender directamente de los módulos de bajo nivel. En cambio, ambos niveles deberían depender de abstracciones. Conforme se indica en la definición.
+Las clases de alto nivel no pueden conocer detalles de las clases de bajo nivel.
+
+**Ejemplo** de código con inconsistencia de nivel:
+
+```ts
+// Clase de bajo nivel (detalles)
+class BajoNivel {
+    obtenerDetalles(): string {
+        return "Estos son los detalles desde la clase de bajo nivel.";
+    }
+}
+
+// Clase de alto nivel que depende de la clase de bajo nivel
+class AltoNivel {
+    private bajoNivel: BajoNivel;
+
+    constructor() {
+        this.bajoNivel = new BajoNivel();
+    }
+
+    mostrarDetalles(): void {
+        const detalles = this.bajoNivel.obtenerDetalles();
+        console.log(`Detalles desde la clase de alto nivel: ${detalles}`);
+    }
+}
+
+// Uso de la clase de alto nivel
+const instanciaAltoNivel = new AltoNivel();
+instanciaAltoNivel.mostrarDetalles();
+
+```
+
+**Ejemplo** de codigo sin inconsistencia de nivel:
+
+```ts
+// Clase de bajo nivel (detalles operativos)
+
+class BajoNivel implements IDetallesOperativos {
+    obtenerDetallesOperativos(): string {
+        return "Estos son los detalles operativos desde la clase de bajo nivel.";
+    }
+}
+
+// Interfaz para abstracción de detalles operativos
+interface IDetallesOperativos {
+    obtenerDetallesOperativos(): string;
+}
+
+// Clase de alto nivel que depende de la interfaz IDetallesOperativos
+class AltoNivel {
+    private detallesOperativos: IDetallesOperativos;
+
+    constructor(detallesOperativos: IDetallesOperativos) {
+        this.detallesOperativos = detallesOperativos;
+    }
+
+    mostrarDetallesOperativos(): void {
+        const detalles = this.detallesOperativos.obtenerDetallesOperativos();
+        console.log(`Detalles operativos desde la clase de alto nivel: ${detalles}`);
+    }
+}
+
+// Uso de las clases
+const instanciaBajoNivel = new BajoNivel();
+const instanciaAltoNivel = new AltoNivel(instanciaBajoNivel);
+instanciaAltoNivel.mostrarDetallesOperativos();
+
+
+```
+
+1. **Clase de Bajo Nivel (BajoNivel):**
+    
+    - La clase `BajoNivel` representa los detalles operativos o funcionales de nivel inferior. En este caso, tiene un método llamado `obtenerDetallesOperativos()` que devuelve una cadena con los detalles.
+    - Esta clase es la implementación concreta de los detalles operativos.
+2. **Interfaz para Abstracción (IDetallesOperativos):**
+    - - La interfaz `IDetallesOperativos` define el contrato para cualquier clase que proporcione detalles operativos.
+    - Contiene solo el método `obtenerDetallesOperativos()`, que debe ser implementado por cualquier clase que cumpla con la interfaz.
+1. **Clase de Alto Nivel (AltoNivel):**
+    
+    - La clase `AltoNivel` representa la lógica de alto nivel que necesita acceder a los detalles operativos.
+    - En su constructor, acepta una instancia de `IDetallesOperativos` (que puede ser una instancia de `BajoNivel` o cualquier otra clase que cumpla con la interfaz).
+    - El método `mostrarDetallesOperativos()` utiliza la instancia de `IDetallesOperativos` para obtener los detalles y los muestra en la consola.
+4. **Cumplimiento del DIP:**
+    
+    - El DIP establece que los módulos de alto nivel no deben depender directamente de los módulos de bajo nivel. En cambio, deben depender de abstracciones o interfaces.
+    - En nuestro ejemplo, `AltoNivel` depende de la interfaz `IDetallesOperativos`, no de la implementación concreta (`BajoNivel`). Esto cumple con el DIP.
+    - Si en el futuro necesitamos cambiar la implementación de los detalles operativos (por ejemplo, usar una clase diferente), no afectará a `AltoNivel` siempre que la nueva clase implemente `IDetallesOperativos`.
+
+En resumen, el código sigue el DIP al depender de abstracciones (la interfaz) en lugar de detalles concretos (la clase `BajoNivel`). Esto facilita la flexibilidad y el mantenimiento del código.

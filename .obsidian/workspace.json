@@ -11,8 +11,12 @@
             "id": "cb8a6a807b846986",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Niveles altos y bajos/Alto nivel.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Niveles altos y bajos/Alto nivel.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Niveles altos y bajos/Alto nivel.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Niveles altos y bajos/Alto nivel.md"
+              }
             }
           }
         ]
@@ -139,6 +147,9 @@
   },
   "active": "cb8a6a807b846986",
   "lastOpenFiles": [
+    "SOLID/Dependency Inversion Principle.md",
+    "SOLID/Interface Segregation Principle.md",
+    "Niveles altos y bajos/Alto nivel.md",
     "Interfaces/interfaces index.md",
     "OOP.md",
     "PHP/Notation/PHP Notation Index.md",
@@ -151,8 +162,6 @@
     "SOLID/Open Closed Principle.md",
     "técnicas",
     "SOLID/Liskov Substitution Principle.md",
-    "SOLID/Interface Segregation Principle.md",
-    "SOLID/Dependency Inversion Principle.md",
     "JavaScript y TypeScript/Notation/Notation JS Index.md",
     "Metodos/metodos index.md",
     "Interfaces",
@@ -163,7 +172,6 @@
     "PHP/Notation/Parent.md",
     "JavaScript y TypeScript/Notation/Super.md",
     "Metodos/static vs non-static/static vs non-static.md",
-    "Niveles altos y bajos/Alto nivel.md",
     "Metodos/static vs non-static",
     "JavaScript y TypeScript/Notation/abstract antes de class.md",
     "Metodos",
